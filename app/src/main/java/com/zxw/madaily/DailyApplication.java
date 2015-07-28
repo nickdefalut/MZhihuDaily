@@ -23,6 +23,8 @@ public class DailyApplication extends Application{
 
     @Override
     public void onCreate() {
+
+        String s = "test new";
         super.onCreate();
         mInstance = this;
         init();
